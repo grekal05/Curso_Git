@@ -1,0 +1,53 @@
+    1  ls
+    2  cd Desktop/
+    3  touch arqeuivo.txt
+    4  git init
+    5  git status
+    6  git add arquivo.txt
+    7  git add arqueivo.txt
+    8  git add arqeuivo.txt
+    9  git status
+   10  git  config  -- global user.email 'grevisse.mulamba@gmail.com'
+   11  git commit
+   12  git config --global user.email "grevisse.mulamba@gmail.com"
+   13  git config --global user.name"grevisse mulamba"
+   14  git config --global user.name "grevisse mulamba"
+   15  git status
+   16  git commit 
+   17  clear
+   18  cd Desktop/
+   19  cd Curso_Git/
+   20  git branch
+   21  git checkout -b feature
+   22  git branch
+   23  touch nova_feature
+   24  git status
+   25  git add nova_feature
+   26  git commit -m 'Adicionando nova feature'
+   27  git log
+   28  git checkout master
+   29  git status
+   30  touch continuando_master
+   31  git add continuando_master
+   32  git commit -m 'Adicionado continuacao na master'
+   33  git log
+   34  git checkout feature
+   35  git log
+   36  git checkout -b feature2 master
+   37  git log
+   38  git branch -d feature2
+   39  git checkout master
+   40  git branch -d feature2
+   41  git log
+   42  git checkout feature2
+   43  clear
+   44  git ckeckout feature
+   45  git checkout feature
+   46  git log --pretty=oneline --graph
+   47  git merge master
+   48  git log
+   49  git log --pretty=oneline --graph
+   50  git reset --hard HEAD~
+   51  git log --pretty=oneline --graph
+   52  git rebase master
+   53  history > Aula_5.txt
