@@ -1,0 +1,36 @@
+    1  ls
+    2  cd Desktop/
+    3  touch arqeuivo.txt
+    4  git init
+    5  git status
+    6  git add arquivo.txt
+    7  git add arqueivo.txt
+    8  git add arqeuivo.txt
+    9  git status
+   10  git  config  -- global user.email 'grevisse.mulamba@gmail.com'
+   11  git commit
+   12  git config --global user.email "grevisse.mulamba@gmail.com"
+   13  git config --global user.name"grevisse mulamba"
+   14  git config --global user.name "grevisse mulamba"
+   15  git status
+   16  git commit 
+   17  clear
+   18  cd
+   19  ls
+   20  cd Desktop/
+   21  cd Curso_Git
+   22  git log
+   23  git checkout feature
+   24  git log
+   25   git config --global alias.logpg 'log --pretty=oneline --graph'
+   26  git logpg
+   27  git config alias.CAM 'commit -am'
+   28  git CAM
+   29  git CAM
+   30  git tag
+   31  git tag -a v0.1 -m 'Até Aula 5'
+   32  git logpg
+   33  git checkout master
+   34  git rebase feature
+   35  git logpg
+   36  history > Aula_6.txt
